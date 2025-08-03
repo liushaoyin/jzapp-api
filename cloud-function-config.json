@@ -1,0 +1,172 @@
+{
+  "provider": "tencent",
+  "spaceId": "YOUR_NEW_SPACE_ID",
+  "region": "ap-singapore-1",
+  "functions": {
+    "addBill": {
+      "name": "addBill",
+      "runtime": "Nodejs12.16",
+      "memory": 128,
+      "timeout": 20,
+      "environment": {
+        "variables": {
+          "NODE_ENV": "production"
+        }
+      }
+    },
+    "getBills": {
+      "name": "getBills",
+      "runtime": "Nodejs12.16",
+      "memory": 128,
+      "timeout": 20,
+      "environment": {
+        "variables": {
+          "NODE_ENV": "production"
+        }
+      }
+    },
+    "updateBill": {
+      "name": "updateBill",
+      "runtime": "Nodejs12.16",
+      "memory": 128,
+      "timeout": 20,
+      "environment": {
+        "variables": {
+          "NODE_ENV": "production"
+        }
+      }
+    },
+    "deleteBill": {
+      "name": "deleteBill",
+      "runtime": "Nodejs12.16",
+      "memory": 128,
+      "timeout": 20,
+      "environment": {
+        "variables": {
+          "NODE_ENV": "production"
+        }
+      }
+    },
+    "addMember": {
+      "name": "addMember",
+      "runtime": "Nodejs12.16",
+      "memory": 128,
+      "timeout": 20,
+      "environment": {
+        "variables": {
+          "NODE_ENV": "production"
+        }
+      }
+    },
+    "getMembers": {
+      "name": "getMembers",
+      "runtime": "Nodejs12.16",
+      "memory": 128,
+      "timeout": 20,
+      "environment": {
+        "variables": {
+          "NODE_ENV": "production"
+        }
+      }
+    },
+    "updateMember": {
+      "name": "updateMember",
+      "runtime": "Nodejs12.16",
+      "memory": 128,
+      "timeout": 20,
+      "environment": {
+        "variables": {
+          "NODE_ENV": "production"
+        }
+      }
+    },
+    "deleteMember": {
+      "name": "deleteMember",
+      "runtime": "Nodejs12.16",
+      "memory": 128,
+      "timeout": 20,
+      "environment": {
+        "variables": {
+          "NODE_ENV": "production"
+        }
+      }
+    },
+    "getStats": {
+      "name": "getStats",
+      "runtime": "Nodejs12.16",
+      "memory": 128,
+      "timeout": 20,
+      "environment": {
+        "variables": {
+          "NODE_ENV": "production"
+        }
+      }
+    },
+    "initData": {
+      "name": "initData",
+      "runtime": "Nodejs12.16",
+      "memory": 128,
+      "timeout": 20,
+      "environment": {
+        "variables": {
+          "NODE_ENV": "production"
+        }
+      }
+    },
+    "backupData": {
+      "name": "backupData",
+      "runtime": "Nodejs12.16",
+      "memory": 128,
+      "timeout": 20,
+      "environment": {
+        "variables": {
+          "NODE_ENV": "production"
+        }
+      }
+    },
+    "errorHandler": {
+      "name": "errorHandler",
+      "runtime": "Nodejs12.16",
+      "memory": 128,
+      "timeout": 20,
+      "environment": {
+        "variables": {
+          "NODE_ENV": "production"
+        }
+      }
+    },
+    "testConnection": {
+      "name": "testConnection",
+      "runtime": "Nodejs12.16",
+      "memory": 128,
+      "timeout": 20,
+      "environment": {
+        "variables": {
+          "NODE_ENV": "production"
+        }
+      }
+    },
+    "fixBillDate": {
+      "name": "fixBillDate",
+      "runtime": "Nodejs12.16",
+      "memory": 128,
+      "timeout": 20,
+      "environment": {
+        "variables": {
+          "NODE_ENV": "production"
+        }
+      }
+    },
+    "fixBillDateType": {
+      "name": "fixBillDateType",
+      "runtime": "Nodejs12.16",
+      "memory": 128,
+      "timeout": 20,
+      "environment": {
+        "variables": {
+          "NODE_ENV": "production"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+	"bsonType": "object",
+	"required": ["backupTime", "version"],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": false,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"bills": {
+			"bsonType": "array",
+			"description": "账单数据备份"
+		},
+		"members": {
+			"bsonType": "array",
+			"description": "成员数据备份"
+		},
+		"backupTime": {
+			"bsonType": "string",
+			"description": "备份时间"
+		},
+		"version": {
+			"bsonType": "string",
+			"description": "备份版本"
+		},
+		"description": {
+			"bsonType": "string",
+			"description": "备份描述",
+			"maxLength": 200
+		}
+	}
+} 

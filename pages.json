@@ -1,0 +1,40 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "记账首页"
+      }
+    },
+    {
+      "path": "pages/members/members",
+      "style": {
+        "navigationBarTitleText": "成员管理"
+      }
+    },
+    {
+      "path": "pages/stats/stats",
+      "style": {
+        "navigationBarTitleText": "账单统计"
+      }
+    },
+    {
+      "path": "pages/network-status/network-status",
+      "style": {
+        "navigationBarTitleText": "网络状态"
+      }
+    },
+    {
+      "path": "pages/test/test",
+      "style": {
+        "navigationBarTitleText": "系统诊断"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTitleText": "记账应用",
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#007AFF",
+    "backgroundColor": "#F8F8F8"
+  }
+}

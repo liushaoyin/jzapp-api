@@ -1,0 +1,58 @@
+{
+	"bsonType": "object",
+	"required": ["amount", "category", "date"],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"amount": {
+			"bsonType": "number",
+			"description": "金额",
+			"minimum": 0
+		},
+		"category": {
+			"bsonType": "string",
+			"description": "分类",
+			"enum": ["餐饮", "交通", "购物", "娱乐", "医疗", "教育", "住房", "其他", "工资", "奖金", "投资", "其他收入"]
+		},
+		"description": {
+			"bsonType": "string",
+			"description": "描述",
+			"maxLength": 200
+		},
+		"date": {
+			"bsonType": "date",
+			"description": "日期"
+		},
+		"memberId": {
+			"bsonType": "string",
+			"description": "成员ID"
+		},
+		"type": {
+			"bsonType": "string",
+			"description": "类型",
+			"enum": ["expense", "income"],
+			"default": "expense"
+		},
+		"payType": {
+			"bsonType": "string",
+			"description": "支付方式",
+			"enum": ["现金", "刷卡", "支付宝", "微信", "其他"],
+			"default": "现金"
+		},
+		"createTime": {
+			"bsonType": "date",
+			"description": "创建时间"
+		},
+		"updateTime": {
+			"bsonType": "date",
+			"description": "更新时间"
+		}
+	}
+} 

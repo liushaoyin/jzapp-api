@@ -1,0 +1,44 @@
+{
+	"bsonType": "object",
+	"required": ["name"],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"name": {
+			"bsonType": "string",
+			"description": "成员姓名",
+			"maxLength": 50
+		},
+		"avatar": {
+			"bsonType": "string",
+			"description": "头像URL",
+			"maxLength": 500
+		},
+		"role": {
+			"bsonType": "string",
+			"description": "角色",
+			"enum": ["家长", "孩子", "老人", "其他"],
+			"default": "其他"
+		},
+		"note": {
+			"bsonType": "string",
+			"description": "备注",
+			"maxLength": 200
+		},
+		"createTime": {
+			"bsonType": "date",
+			"description": "创建时间"
+		},
+		"updateTime": {
+			"bsonType": "date",
+			"description": "更新时间"
+		}
+	}
+} 

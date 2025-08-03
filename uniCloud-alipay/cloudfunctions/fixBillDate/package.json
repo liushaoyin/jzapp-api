@@ -1,0 +1,7 @@
+{
+  "name": "fixBillDate",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

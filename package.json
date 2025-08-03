@@ -1,0 +1,17 @@
+{
+  "name": "jzapp-api",
+  "version": "1.0.0",
+  "description": "记账应用API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "vercel build",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "mongodb": "^5.0.0"
+  },
+  "devDependencies": {
+    "vercel": "^28.0.0"
+  }
+}
