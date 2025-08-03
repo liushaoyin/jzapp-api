@@ -1,0 +1,125 @@
+{
+  "collections": [
+    {
+      "name": "bills",
+      "description": "账单记录",
+      "schema": {
+        "bsonType": "object",
+        "required": ["amount", "type", "category", "date", "user_id"],
+        "properties": {
+          "_id": {
+            "description": "ID，系统自动生成"
+          },
+          "amount": {
+            "bsonType": "number",
+            "description": "金额"
+          },
+          "type": {
+            "bsonType": "string",
+            "enum": ["income", "expense"],
+            "description": "类型：收入/支出"
+          },
+          "category": {
+            "bsonType": "string",
+            "description": "分类"
+          },
+          "description": {
+            "bsonType": "string",
+            "description": "描述"
+          },
+          "date": {
+            "bsonType": "date",
+            "description": "日期"
+          },
+          "user_id": {
+            "bsonType": "string",
+            "description": "用户ID"
+          },
+          "member_id": {
+            "bsonType": "string",
+            "description": "成员ID"
+          },
+          "create_time": {
+            "bsonType": "date",
+            "description": "创建时间"
+          },
+          "update_time": {
+            "bsonType": "date",
+            "description": "更新时间"
+          }
+        }
+      }
+    },
+    {
+      "name": "members",
+      "description": "成员信息",
+      "schema": {
+        "bsonType": "object",
+        "required": ["name", "user_id"],
+        "properties": {
+          "_id": {
+            "description": "ID，系统自动生成"
+          },
+          "name": {
+            "bsonType": "string",
+            "description": "成员姓名"
+          },
+          "avatar": {
+            "bsonType": "string",
+            "description": "头像URL"
+          },
+          "user_id": {
+            "bsonType": "string",
+            "description": "用户ID"
+          },
+          "is_owner": {
+            "bsonType": "bool",
+            "description": "是否为创建者"
+          },
+          "create_time": {
+            "bsonType": "date",
+            "description": "创建时间"
+          }
+        }
+      }
+    },
+    {
+      "name": "categories",
+      "description": "分类信息",
+      "schema": {
+        "bsonType": "object",
+        "required": ["name", "type", "user_id"],
+        "properties": {
+          "_id": {
+            "description": "ID，系统自动生成"
+          },
+          "name": {
+            "bsonType": "string",
+            "description": "分类名称"
+          },
+          "type": {
+            "bsonType": "string",
+            "enum": ["income", "expense"],
+            "description": "类型：收入/支出"
+          },
+          "icon": {
+            "bsonType": "string",
+            "description": "图标"
+          },
+          "color": {
+            "bsonType": "string",
+            "description": "颜色"
+          },
+          "user_id": {
+            "bsonType": "string",
+            "description": "用户ID"
+          },
+          "create_time": {
+            "bsonType": "date",
+            "description": "创建时间"
+          }
+        }
+      }
+    }
+  ]
+} 
