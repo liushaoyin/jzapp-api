@@ -5,11 +5,14 @@
 ### 首页 - 账单概览
 ![首页截图](screenshots/home.png)
 
-### 添加账单
-![添加账单](screenshots/add-bill.png)
-
 ### 成员管理
 ![成员管理](screenshots/members.png)
+
+### 语音记账功能
+![语音记账](screenshots/voice-input.png)
+
+### 添加账单
+![添加账单](screenshots/add-bill.png)
 
 ### 数据统计
 ![数据统计](screenshots/stats.png)
